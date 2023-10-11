@@ -1,8 +1,10 @@
 ## What's New?
 
-I have added recently added
+- 2023-10-10 - I added
 [Buddy](https://github.com/phorton1/base-apps-buddy) a
-general purpose COM and Telnet port monitor.
+general purpose COM and Telnet port monitor that
+includes a [Installer](https://github.com/phorton1/base-apps-buddy/tree/master/releases)
+for Microsoft Windows
 
 
 ## Project Groups
