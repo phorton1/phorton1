@@ -1,8 +1,8 @@
 # My Github Repos
 
-**Home** --
+[**Home**](home.md) --
 [**vGuitar**](vGuitar.md) --
-[**Artisan**](Artisan.md)
+**Artisan**
 
 
 This page provides an overview of my repos here on Github.
