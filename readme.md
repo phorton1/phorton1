@@ -1,8 +1,8 @@
 # My Github Repos
 
-[**Home**](home.md) --
+**Home** --
 [**vGuitar**](vGuitar.md) --
-**Artisan**
+[**Artisan**](Artisan.md)
 
 
 This page provides an overview of my repos here on Github.
@@ -18,10 +18,12 @@ for Microsoft Windows
 
 ## Project Groups
 
-- [**vGuitar System**](vGuitar.md)
-  An overview of the Teensy Expression Foot Pedal, Looper Box, and how they
-  fit together with an iPad and various Applications to create the
-  Virtual Guitar rig that I use in live performances.
+- [**vGuitar System**](vGuitar.md) - An overview of the
+  [Teensy Expression](https://github.com/phorton1/Arduino-teensyExpression)
+  Foot Pedal and the
+  [Looper Box](https://github.com/phorton1/circle-prh-apps-Looper)
+  and how they fit together with an **iPad** and various Applications to
+  create the Virtual Guitar rig that I use in live performances.
 - [**Artisan**](Artisan.md)
   is a system for organizing and presenting a **Music Library** of
   Audio files, *like MP3s*, contained in a single folder tree on one or

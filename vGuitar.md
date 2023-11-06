@@ -2,7 +2,7 @@
 
 
 [**Home**](readme.md) --
-**vGuitar**(vGuitar.md) --
+**vGuitar** --
 [**Artisan**](Artisan.md)
 
 This page provides an overview of my vGuitar rig and the Things,
