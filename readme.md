@@ -29,7 +29,7 @@ for Microsoft Windows
   Audio files, *like MP3s*, contained in a single folder tree on one or
   more computers on a home network.
   The system consists of *Programs* and *Libraries* that organize and
-  present that Library in a variety of manners, mostly centered aound
+  present that Library in a variety of manners, mostly centered around
   the notion of being a completely compliant with various standards
   including
   [HTML](https://en.wikipedia.org/wiki/HTML),

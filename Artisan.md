@@ -13,7 +13,7 @@ The system is built to be a completely compliant set of
 [UPNP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play)
 (Universal Plug and Play) standard
 [DLNA](https://en.wikipedia.org/wiki/DLNA)
-devices that present themsselves on the home network via
+devices that present themselves on the home network via
 [SSDP](https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol)
 (Simple Service Discovery Protocol) devices as well as being generic
 [HTTP](https://en.wikipedia.org/wiki/HTTP) and
@@ -50,7 +50,7 @@ There are three main sub-repositories in the system:
   a *Controller*, and so it also acts as a **complete stand-alone Music System**.
   This program was specifically built to run on an *Android based Car Stereo*.
   - If a Library is present, it implements the UPNP, DLNA, and SSDP servers
-    necesary to **be** a **DLNA Server**.
+    necessary to **be** a **DLNA Server**.
   - It **is** a **DLNA Renderer** and **DLNA Controller**, so, even if there
     is no Library present, (i.e. if I run the app on my Phone with no Library),
 	it can Control any other Artisan (DLNA) Renderer, and/or play music from any
@@ -81,7 +81,7 @@ Artisan Android does not currently include a generic HTTP/HTML server<sup>1</sup
 - **Controller** - a DLNA Controller connects a Renderer to a Server
   and presents a User Interface. It generally controls the Renderer
   and shows context information, like the images and descriptions,
-  for the current Track(s) being streamed by the Renderer and alows
+  for the current Track(s) being streamed by the Renderer and allows
   the Renderer to be "programmed" to play a given Track, folder tree,
   Album, playlist, and so on.
 
@@ -118,7 +118,7 @@ Artisan Android on the Car Stereo, and, simultaneously:
 	- Visitor's phone (Generic DLNA Server)
 - on any of the devices
     - the Laptop (Artisan Win DLNA Renderer)
-	- the Car Stero (Artisan Android DLNA Renderer)
+	- the Car Stereo (Artisan Android DLNA Renderer)
 	- my Phone (Artisan Android DLNA Renderer)
 	- the TV (Samsung DLNA Renderer)
 	- Visitors Laptop or Phone (Windows Media or Generic DLNA Render)
