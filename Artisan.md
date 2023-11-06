@@ -214,16 +214,17 @@ Typically, if I want to listen to music on my home network, I run the
 [Artisan Win](https://github.com/phorton1/base-apps-artisanWin) program which
 turns my laptop into both a Server and a Renderer and allows me to play
 the music from the Artisan Library on my laptop.  If I want it louder,
-I typically use and external **Bluetooth** device.
+I typically use an external **Bluetooth** device.
 I can then also control the music being played by accessing the HTML WebUI
-in a Browser from any other device on my home network.
+in a Browser from any other device on my home network. or from
+[Artisan Android](https://github.com/phorton1/Android-Artisan) on my phone.
 
 I typically use [Artisan Android](https://github.com/phorton1/Android-Artisan)
-in a more stand-alone method on my boat where it runs on the *Car Stereo*,
+in a stand-alone configuration on my boat where it runs on the *Car Stereo*,
 and does not, per-se, require a network to function.  If the Car Stereo
 **is** on a network however, I can control it via another instance
 of the the Artisan Android application running on my Phone, or via
-the WebUI or Artisan Win user interfaces.
+the various other WebUI or Artisan Win user interfaces.
 
 
 ## Summary and Footnotes
@@ -253,8 +254,3 @@ Program and Library
 
 
 [... Back](readme.md) to Overview of My Github Repos
-
-
-
-
-
