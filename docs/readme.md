@@ -1,3 +1,12 @@
+# My Github Repos
+
+**Home** --
+[**vGuitar**](vGuitar.md) --
+[**Artisan**](Artisan.md)
+
+
+This page provides an overview of my repos here on Github.
+
 ## What's New?
 
 - 2023-10-10 - I added
@@ -13,3 +22,16 @@ for Microsoft Windows
   An overview of the Teensy Expression Foot Pedal, Looper Box, and how they
   fit together with an iPad and various Applications to create the
   Virtual Guitar rig that I use in live performances.
+- [**Artisan**](Artisan.md)
+  is a system for organizing and presenting a **Music Library** of
+  Audio files, *like MP3s*, contained in a single folder tree on one or
+  more computers on a home network.
+  The system consists of *Programs* and *Libraries* that organize and
+  present that Library in a variety of manners, mostly centered aound
+  the notion of being a completely compliant with various standards
+  including
+  [HTML](https://en.wikipedia.org/wiki/HTML),
+  [HTTP](https://en.wikipedia.org/wiki/HTTP),
+  [UPNP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play),
+  [DLNA](https://en.wikipedia.org/wiki/DLNA), and
+  [SSDP](https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol).
