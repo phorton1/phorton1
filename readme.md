@@ -9,6 +9,14 @@ This page provides an overview of my repos here on Github.
 
 ## What's New?
 
+- 2024-05-06 - Made
+[teensyExpression2](https://github.com/phorton1/Arduino-teensyExpression2)
+public and added the new
+[teensyPiAudio)[https://github.com/phorton1/Arduino-teensyPiAudio]
+device as the next step in the [vGuitar rig](vGuitar.md) journey.
+These are projects that I have been actively working on for the
+last (few,many) months that were not public before today.
+
 - 2023-10-10 - I added
 [Buddy](https://github.com/phorton1/base-apps-buddy) a
 general purpose COM and Telnet port monitor that
