@@ -9,13 +9,19 @@ This page provides an overview of my repos here on Github.
 
 ## What's New?
 
-- 2024-05-06 - Made
+
+- 2024-05-09 - Begin redesign of a new, greatly simplified
+[vGuitar system](vGuitar.md) that combines the previously separate
+[Looper Box](https://github.com/phorton1/circle-prh-apps-Looper),
+eliminating most of it's *guts*, into a single optimizized
+[teensyExpression3](https://github.com/phorton1/Arduino-TE3)
+foot pedal with a new *teensy 4.x* based
+[USB Audio](https://github.com/phorton1/Arduino-TE3_audio)
+interface.
+
+- 2024-05-06 - Made intermediate development repo
 [teensyExpression2](https://github.com/phorton1/Arduino-teensyExpression2)
-public and added the new
-[teensyPiAudio)[https://github.com/phorton1/Arduino-teensyPiAudio]
-device as the next step in the [vGuitar rig](vGuitar.md) journey.
-These are projects that I have been actively working on for the
-last (few,many) months that were not public before today.
+public.
 
 - 2023-10-10 - I added
 [Buddy](https://github.com/phorton1/base-apps-buddy) a
