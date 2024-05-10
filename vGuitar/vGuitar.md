@@ -1,7 +1,9 @@
 ## vGuitar - Virtual Guitar Rig I use in Live Performances
 
 **vGuitar** --
-[**Artisan**](Artisan.md)
+**Midi** --
+**PCBs** --
+**etc** --
 
 This is the home page for the overall design of the **vGuitar System**.
 This folder contains *design* and *reference* documentation that is
@@ -351,5 +353,7 @@ to setup in a live setting while still retaining most or all
 of the functionality of the previous vGuitar rig.
 
 
-up   [... phorton1](readme.md) to Overview of My Github Repos
-next [
+... return to the [... phorton1](../readme.md) Overview of My Github Repos
+
+... next [Midi Specification and Protocols](midi.md)
+
