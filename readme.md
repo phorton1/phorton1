@@ -1,7 +1,7 @@
 # My Github Repos
 
 **Home** --
-[**vGuitar**](vGuitar.md) --
+[**vGuitar**](vGuitar/vGuitar.md) --
 [**Artisan**](Artisan.md)
 
 
@@ -11,12 +11,12 @@ This page provides an overview of my repos here on Github.
 
 
 - 2024-05-09 - Begin redesign of a new, greatly simplified
-[vGuitar system](vGuitar.md) that combines the previously separate
+[vGuitar system](vGuitar/vGuitar.md) that combines the previously separate
 [Looper Box](https://github.com/phorton1/circle-prh-apps-Looper),
 eliminating most of it's *guts*, into a single optimizized
 [teensyExpression3](https://github.com/phorton1/Arduino-TE3)
 foot pedal with a new *teensy 4.x* based
-[USB Audio](https://github.com/phorton1/Arduino-TE3_audio)
+[USB Audio and MIDI](https://github.com/phorton1/Arduino-TE3_hub)
 interface.
 
 - 2024-05-06 - Made intermediate development repo
@@ -32,7 +32,7 @@ for Microsoft Windows
 
 ## Project Groups
 
-- [**vGuitar System**](vGuitar.md) - An overview of the
+- [**vGuitar System**](vGuitar/vGuitar.md) - An overview of the
   [Teensy Expression](https://github.com/phorton1/Arduino-teensyExpression)
   Foot Pedal and the
   [Looper Box](https://github.com/phorton1/circle-prh-apps-Looper)
