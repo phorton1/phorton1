@@ -1,9 +1,62 @@
 ## vGuitar - Virtual Guitar Rig I use in Live Performances
 
 **vGuitar** --
-**Midi** --
-**PCBs** --
-**etc** --
+**[History](history.md)** --
+
+
+- Rig Before FTP
+- Initial FTP Rig
+  - iPad (Quantiloop, SampleTank, AudioBus)
+  - Audiofront MIDIExpression Yellow
+  - IK Multimedia iRig2HD
+  - 7 port USB 3.0 hub
+  - Softstep Foot Pedal
+  - Akai 4x4 Drum Pad
+  - Four Expression Pedals
+  - 12 cables (24 connectors)
+- Synth Box
+  - mods to IRig2HD (LED and Input Pad)
+  - guts of AudioFront, iRig2HD, and USB Hub
+  - internal power supply(s)
+  - 6 cables (12 connectors)
+- Looper and initial TeensyExpression
+  - teensyPiLooper replaces AudioFront
+  - TE replaces Akai Drum Pad and Softstep Foot Pedal
+  - Looper replaces Quantiloop
+  - Complicated Pass Thru debugging and programming Environment
+  - Added cables, as it
+  - Required Serial from Looper to TE
+- Evolution of TeensyExpression1
+  - Song Machine
+- TeensyExpression2
+  - User Designed Rigs
+  - loss of Song Machine
+- TE3
+  - for lack of a better name
+  - single box solution
+  - use teensy USB Audio device to eliminate iRig2HD
+  - direct integration of rPi Looper and teensyQuad Audio device
+  - eliminate as many cables as possible
+    - guitar in
+	- power and USB to iPad
+	- stereo audio out to PA
+    - power in
+  - USB port for FTP
+ 
+
+## Current
+
+- rpi4B **Looper2** box, which contains a
+- teensy3.2 running the **teensyPiLooper** program which communicates with
+- the *current TeensyExpression Hardware* which runs **EITHER**
+- **teensyExpression** (version 1) with the *Song Machine* OR
+- **teensyExpression2** which has user defined rigs
+
+
+
+
+
+## UNDER DEVLOPMENT
 
 This is the home page for the overall design of the **vGuitar System**.
 This folder contains *design* and *reference* documentation that is
