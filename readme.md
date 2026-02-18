@@ -88,7 +88,7 @@ grouped into a number of **Project Groups** that are somehow related:
   foot pedal and looper system presented as completely documented DIY things.
 - **Artisan** - A multi-platform *Music Server* that I use to organize
   and play my music library (MP3s) from a local library on a hard-disk
-  or USB memory device on an MS Windows or Raspberry Pi hardware platform
+  or USB memory device on a MS Windows or Raspberry Pi hardware platform
   that is reasonably documented and could be considered a DIY system.
 - **Utilities** - that tend to be complete **MS Windows** applications,
   sometimes include complete documentation as well a complete released
@@ -169,8 +169,9 @@ top level repos within those groups;
   - [**teensyBoat.ino**](https://github.com/phorton1/Arduino-boat-teensyBoat) and
     [**teensyBoat.pm**](https://github.com/phorton1/base-apps-teensyBoat) -
     A *do-everything* multi-protocol, multi-port, based general purpose ***device***
-	(teensy4.0 Arduino INO program with Firmware, Schematics, PCB Designs, and 3D Printed
-	enclosure) for **NMEA2000, NMEA0183,** and **Seatalk1** protocols, based on my
+	consisting of a teensy4.0 Arduino INO program with Firmware, Schematics, PCB Designs,
+	and 3D Printed enclosure for **NMEA2000, NMEA0183,** and **Seatalk1** protocols,
+	largely encapsulated in my
 	[**Arduino Boat Library**](https://github.com/phorton1/Arduino-libraries-Boat)
 	along with a Serial Console and Windowed (wxPerl based) ***UI application*** that
 	runs on my laptop.
@@ -210,8 +211,8 @@ top level repos within those groups;
 	over my last 20 years of owning and using *Raymarine Instruments and Chartplotters*.
 	In some cases it provides the **most complete and/or most current reference** materials
 	regarding Raymarine's proprietary **protocols** and **file formats** available anywhere
-	on the internet (in the world). *Note: Sorry but this repo is currently **private**,
-	and will return a **404 Not found* when you click on the links here, as I work out
+	on the internet (in the world). ***Note:** Sorry but this repo is currently **private**,
+	and will return a **404 Not found** when you click on the links here, as I work out
 	the documentation presentation to a form I am satisfied with*.
 	- [**NET**](https://github.com/phorton1/base-apps-raymarine/tree/master/NET) -
 	  This folder contains the world's first comprehensive reverse engineering
@@ -317,7 +318,8 @@ top level repos within those groups;
 	and that *plays well* with the Arduino Development Environment (to close the COM port when an
 	Arduino build is in process).
   - [**gitMUI.pm**](https://github.com/phorton1/base-apps-gitMUI) - a replacement for the **gitUI** User Interface
-    provided with most installations of **Git**.  As opposed to the standard UI, my *gitMUI* program allows one to
+    provided with most installations of **Git** that I use almost every day to update GitHub from my local repos.
+	As opposed to the standard UI, my *gitMUI* program allows one to
 	- commit, push, and pull **multiple repos simultaneously**
 	- **instantanously see** any changed files (diffs) or uncommitted changes as soon as files are
 	  written to disk (saved from an editor) without needing to "rescan" repos each time you make changes
