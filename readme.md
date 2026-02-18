@@ -316,8 +316,17 @@ top level repos within those groups;
 	written) that can be run from its Perl source, but is also released as an **installable MS Windows Application**
 	and that *plays well* with the Arduino Development Environment (to close the COM port when an
 	Arduino build is in process).
-  - [**gitMUI.pm**](https://github.com/phorton1/base-apps-gitMUI)
-  - [**myIOTServer.pm**](https://github.com/phorton1/base-apps-myIOTServer)
+  - [**gitMUI.pm**](https://github.com/phorton1/base-apps-gitMUI) - a replacement for the **gitUI** User Interface
+    provided with most installations of **Git**.  As opposed to the standard UI, my *gitMUI* program allows one to
+	- commit, push, and pull **multiple repos simultaneously**
+	- **instantanously see** any changed files (diffs) or uncommitted changes as soon as files are
+	  written to disk (saved from an editor) without needing to "rescan" repos each time you make changes
+	- provides a process to **manage and normalize submodules** (code that is explicitly shared and
+	  included in more than one repo) without confusing and onerous jumping through hoops.
+  - [**myIOTServer.pm**](https://github.com/phorton1/base-apps-myIOTServer) - A *service* that
+    works with my [**ESP32 myIOT**](https://github.com/phorton1/Arduino-libraries-myIOT) library
+	to aggregate and forward myIOT devices to a HTTPS (encrypted, protected) Machine on
+	the internet at large so that I can access myIOT devices from anywhere on the planet.
 - **Add Ins** and extensions
   - My Fusion 360 [**prhParams**](https://github.com/phorton1/fusionAddIns-prhParams) Add In
     that allows me to work with, sort, comment, and modify the parameters that drive a Fusion
