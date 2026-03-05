@@ -7,8 +7,8 @@
 
 This page provides a bit of an overview of my repos here on Github.
 
-This page was last updated on **2026-02-18**.
-As of this writing I have **86 Public Repos** on Github.
+This page was last updated on **2026-03-04**.
+As of this writing I have **82 Public Repos** on Github.
 
 I write a **lot** of code and programs.  Although the code I write is generally
 based on my own interests and needs at any given point in time, I generally
@@ -134,33 +134,30 @@ Without further ado, here is the list of Project Groups, and the
 top level repos within those groups;
 
 - **Boat Things**
-  - [**bilgeAlarm.ino**](https://github.com/phorton1/Arduino-bilgeAlarm) -
+  - [**airco.ino**](https://github.com/phorton1/Arduino-boat-airco) -
+    a [**ESP32 myIOT**](https://github.com/phorton1/Arduino-libraries-myIOT) based
+	monitor for a ***Webasto** FCF 10000btu Marine Air Conditioner* along with a
+	controller/monitor/remote for a custom built DIY Water Level Sensor and
+	12V Condensate Pump as installed on my boat. On this project I reverse engineered
+	the RS485 protocol the Webasto *Controller Box* and the *Remote Control Panel*
+	to be able to monitor the state of the Air Conditioner remotely.
+  - [**bilgeAlarm.ino**](https://github.com/phorton1/Arduino-boat-bilgeAlarm) -
     a [**ESP32 myIOT**](https://github.com/phorton1/Arduino-libraries-myIOT) based
 	Bilge Pump Alarm and remote monitor/controller as used on my boat.
-  - [**fridgeController.ino**](https://github.com/phorton1/Arduino-fridgeController) -
+  - [**fridgeController.ino**](https://github.com/phorton1/Arduino-boat-fridgeController) -
     a [**ESP32 myIOT**](https://github.com/phorton1/Arduino-libraries-myIOT) based
     controller/remote/monitor for Danfoss BD50 and related Refrigerator Compressors
 	as used on my boat.
-  - [**lightController.ino**](https://github.com/phorton1/Arduino-lightController) -
+  - [**lightController.ino**](https://github.com/phorton1/Arduino-boat-lightController) -
     a [**ESP32 myIOT**](https://github.com/phorton1/Arduino-libraries-myIOT) based
     remote controller for various lights (Anchor, Deck, etc), as installed on my boat
 	as part of its completely custom designed and re-implemented DC Electrical Panel.
-  - [**tempController.ino**](https://github.com/phorton1/Arduino-tempController)
+  - [**tempController.ino**](https://github.com/phorton1/Arduino-boat-tempController)
     a [**ESP32 myIOT**](https://github.com/phorton1/Arduino-libraries-myIOT) based
 	general purpose, controller/remote/monitor for temperature sensing and controlling
 	a 12V fan that I use in the Inverter Compartment on my boat to aid in cooling the
 	2000W Inverter/Charger.
-  - [**drainPump.ino**](https://github.com/phorton1/Arduino-boat-drainPump) -
-    a [**ESP32 myIOT**](https://github.com/phorton1/Arduino-libraries-myIOT) based
-    controller/remote/monitor for a 12V Air Conditioning Condensate Pump
-	using a custom designed DIY water level sensor.
-  - [**airco.ino**](https://github.com/phorton1/Arduino-boat-airco) -
-    a [**ESP32 myIOT**](https://github.com/phorton1/Arduino-libraries-myIOT) based
-	remote/monitor, where I reverse engineered the RS485 protocol between my newly
-	installed **Webasto** FCF 10000btu Marine Air Conditioner and its **Control Panel**
-	to be able to monitor the state of the Air Conditioner remotely.  This will be
-	combined with the **drainPump** above in future iterations of the system.
-  - **Fans** a series of custom designed and 3D Printed 12V Brushless Fans in use on my boat:
+- **Fans** a series of custom designed and 3D Printed 12V Brushless Fans in use on my boat:
     - [fan1.ino](https://github.com/phorton1/projects-fan1) - initial Arduino
 	  Nano Brushless Motor PWM controller and 3D printed fan design
 	- **Fan Designs** (TBD) - Subsequent refined and more robust 3D printed fan designs that
@@ -255,15 +252,15 @@ top level repos within those groups;
     and supporting documentation that I have created based on my fork of the
 	[**FluidNC Library**](https://github.com/phorton1/Arduino-libraries-FluidNC) and my
 	[**extensions**](https://github.com/phorton1/Arduino-libraries-FluidNC_extensions) to it:
-  - [**vMachine.ino**](https://github.com/phorton1/Arduino-vMachine) - the first "cnc" machine
+  - [**vMachine.ino**](https://github.com/phorton1/Arduino-cnc-vMachine) - the first "cnc" machine
     I created that provides a port of the *Maslow CNC Machine* **kinematics** to make a
 	pen-plotter using two stepper motors.
-  - [**cnc3018.ino**](https://github.com/phorton1/Arduino-esp32_cnc3018) - the second cnc machine
+  - [**cnc3018.ino**](https://github.com/phorton1/Arduino-cnc-cnc3018) - the second cnc machine
     I created that I now use primarily to mill my own PCB (Printed Circuit Boards) that
 	(a) milled ITS OWN PCB lol, and (b) which I used to create parts for the subsequent
 	**cnc20mm** below. Most of the PCB designs that I present on other pages are milled
 	on this machine.
-  - [**cnc20mm.ino**](https://github.com/phorton1/Arduino-esp32_cnc20mm) - a *large* CNC machine
+  - [**cnc20mm.ino**](https://github.com/phorton1/Arduino-cnc-cnc20mm) - a *large* CNC machine
     that I designed and created that can work on pieces up to 50x50 inches, allowing a complete
 	4x8 foot sheet to be worked on by doing it in two 4x4 foot halves, that currently sports a
 	500W 100V DC spindle for machining and a 30W optical power laser that is capable of cutting
