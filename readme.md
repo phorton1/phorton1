@@ -334,7 +334,7 @@ top level repos within those groups;
     me to animate designs in ways that normally don't work in Fusion 360 so as to better judge
 	the performance of mechanical designs.  Used extensively in **theClock3**'s design process.
 - **Other Projects**
-  - [**wireStripper.ino**](https://github.com/phorton1/Arduino-wireStripper) - a **thing** I made,
+  - [**wireStripper32.ino**](https://github.com/phorton1/Arduino-wireStripper32) - a **thing** I made,
     based on my [**ESP32 myIOT**](https://github.com/phorton1/Arduino-libraries-myIOT) library
 	to provide a UI, with complete Fusion 360 Designs, 3D printing information, Schematics and PCB
 	designs, to **cut and strip** 22ga **wires for use on breadboards** and on the many one sided
