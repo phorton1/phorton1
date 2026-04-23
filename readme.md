@@ -7,8 +7,8 @@
 
 This page provides a bit of an overview of my repos here on Github.
 
-This page was last updated on **2026-03-04**.
-As of this writing I have **82 Public Repos** on Github.
+This page was last updated on **2026-04-23**.
+As of this writing I have **83 Public Repos** on Github.
 
 I write a **lot** of code and programs.  Although the code I write is generally
 based on my own interests and needs at any given point in time, I generally
