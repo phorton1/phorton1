@@ -204,13 +204,12 @@ top level repos within those groups;
 	**complete replacement for Raymarine ST50/ST60** and even more recent **Wind Instruments**
 	and interfaces.
   - [**raymarine**](https://github.com/phorton1/base-apps-raymarine) -
-    This repo contains a variety of applications and knowledge that have been developed
-	over my last 20 years of owning and using *Raymarine Instruments and Chartplotters*.
-	In some cases it provides the **most complete and/or most current reference** materials
-	regarding Raymarine's proprietary **protocols** and **file formats** available anywhere
-	on the internet (in the world). ***Note:** Sorry but this repo is currently **private**,
-	and will return a **404 Not found** when you click on the links here, as I work out
-	the documentation presentation to a form I am satisfied with*.
+    This repo documents the results of a systematic reverse-engineering effort targeting
+	Raymarine's proprietary **SeatalkHS ethernet protocols** and **FSH file format**, and
+	includes working Perl implementations of both. It is believed to be the **most complete
+	structured technical record** of these protocols available anywhere. It is also the
+	foundation for **navMate**, a planned desktop application for lifelong,
+	device-independent navigation data management for mariners.
 	- [**NET**](https://github.com/phorton1/base-apps-raymarine/tree/master/NET) -
 	  This folder contains the world's first comprehensive reverse engineering
 	  and documentation effort regarding Raymarine's **SeatalkHS** ethernet protocols.
@@ -248,6 +247,11 @@ top level repos within those groups;
 	  MCP2515 CANBUS Module  that has been superseded by the teensyBoat PCB.
 	- **Seatalk.ino** - vestigial early program to read and write **Seatalk1** using
 	  an opto-isolator interface that I developed that is now part of the teensyBoat PCB
+	- [**navMate**](https://github.com/phorton1/base-apps-raymarine/tree/master/apps/navMate) -
+	  a planned desktop application (wxPerl/Leaflet/SQLite) for lifelong, device-independent
+	  **navigation data management** — waypoints, routes, groups, and tracks — across multiple
+	  boats, multiple chartplotters, and a mariner's entire career. Built on the RAYNET
+	  protocol library above. Pre-implementation; architecture documented.
 - **CNC Machines** - a series of CNC machines, their firmware, design, 3D printing information,
     and supporting documentation that I have created based on my fork of the
 	[**FluidNC Library**](https://github.com/phorton1/Arduino-libraries-FluidNC) and my
