@@ -127,6 +127,7 @@ the reader (you) to piece together without a roadmap of some kind.
 
 - [**vGuitar**](vGuitar/vGuitar.md) - an overview of my vGuitar System
 - [**Artisan**](Artisan.md) - an overview of my Artisan Music Server system
+- [**teensyBoat**](https://github.com/phorton1/Arduino-boat-teensyBoat/blob/master/docs/readme.md) - an overview of the teensyBoat multi-protocol marine instrument system: the Teensy 4.0 firmware, the teensyBoat.pm wxPerl Windows application, and the Arduino Boat Library.
 
 ## Project Groups
 
